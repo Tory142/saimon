@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин "Лос ось"</title>
+    
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- design header  -->
+    <header class="header">
+        <a class="logo" href="#">Лос <span class="red">ось</span></a>
+
+        <nav class="navlist">
+            <a class="active" href="#home">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#shop">Магазин</a>
+            <a href="#review">Отзывы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+
+        <div class="nav-icons">
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
+    </header>
+
+    <!-- design main -->
+        <section class="home" id="home">
+            <div class="home-inner">
+                <div class="home-content">
+                    <h1>Доставка</h1>
+                    <span class="red">красной рыбы</span> 
+                    <h1>в Череповце</h1>
+                    <a class="btn-home btn2" href="#">Заказать сейчас</a>
+                </div>
+                <div class="home-img">
+                    <div class="home-img_fish">
+                        <img src="img/home12.png" alt="">
+                    </div>
+                    <div class="home-img_bubble bubble1">
+                        <img src="img/home21.png" alt="">
+                    </div>
+                    <div class="home-img_bubble bubble2">
+                        <img src="img/home23.png" alt="">
+                    </div>
+                    <div class="home-img_bubble bubble3">
+                        <img src="img/home22.png" alt="">
+                    </div>
+                </div>
+            </div>
+                <div class="container">
+                <div class="container-box">
+                    <i class="bx bx-time-five"></i>
+                    <h3>Мы работаем <br>с 10.00 по 21.00</h3>
+                </div>
+
+                <div class="container-box">
+                    <i class="bx bx-building-house"></i>
+                    <h3>г. Череповец <br>ул. Мира, 35</h3>
+                </div>
+
+                <div class="container-box">
+                    <i class="bx bx-phone"></i>
+                    <a href="tel:88202111111">8(8202)11-11-11</a>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- about  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/a1.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">О <span>Нас</span></h2>
+            <p> Лос <span class="red">ось</span> – уникальный магазин свежей красной рыбы прямиком с судна. У нас Вы сможете найти такую рыбу как: <span class="red"> лосось, семга, форель, кета и горбуша!</span> Вся рыба поступает к нам от проверенных поставщиков с Дальневосточного округа России. Заказ рыбы можно оформить в любой нарезке!  </p>
+            <a href="#" class="btn">Узнать больше</a>
+        </div>
+    </section>
+
+    <!-- shop  -->
+    <section class="shop" id="shop">
+        <div class="heading shop-title">
+            <h2 class="red">Популярные товары</h2>
+        </div>
+        <div class="shop-inner mySwiper">
+            <div class="shop-content swiper-wrapper">
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop4.png" alt="">
+                    <h3>Стейк</h3>
+                    <a href="#">Форель</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span> 
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop1.png" alt="">
+                    <h3>Филе на шкуре</h3>
+                    <a href="#">Семга</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span>
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop2.png" alt="">
+                    <h3>Филе на шкуре</h3>
+                    <a href="#">Семга</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span>
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop3.png" alt="">
+                    <h3>Филе без шкуры</h3>
+                    <a href="#">Семга</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span>
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop.png" alt="">
+                    <h3>Стейк</h3>
+                    <a href="#">Семга</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span>
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop5.png" alt="">
+                    <h3>Рыба целиком</h3>
+                    <a href="#">Семга</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span>
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+                <div class="shop-row swiper-slide">
+                    <img src="img/shop6.png" alt="">
+                    <h3>Сашими</h3>
+                    <a href="#">Семга</a>
+                    <div class="in-text">
+                        <div class="price">
+                            1000 <span>руб/кг</span>
+                        </div>
+                        <div class="btn-shop">
+                            <a href="#">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="like" tabindex="0">
+                        <i class='bx bxs-heart' ></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="shop-link">
+            <a href="#" class="btn">Все товары <i class='bx bxs-right-arrow'></i></a>
+        </div>
+    </section>
+
+    <!-- reviews -->
+    <section class="review" id="review">
+        <div class="heading review-title">
+            <h2>Отзывы наших <span>покупателей</span></h2>
+        </div>
+
+        <div class="review-content">
+            <div class="review-row review-row-top">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia in repellendus quas culpa cum, corrupti at nemo sit voluptas assumenda et tenetur dolorem eaque laudantium, dicta quibusdam ab tempora magnam.</p>
+                <div class="review-box">
+                    <div class="box-img">
+                        <img src="img/r1.png" alt="">
+                    </div>
+                    <div class="box-text">
+                        <h4>Анна К.</h4>
+                        <div class="ratings">
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-row review-row-bot">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia in repellendus quas culpa cum, corrupti at nemo sit voluptas assumenda et tenetur dolorem eaque laudantium, dicta quibusdam ab tempora magnam.</p>
+                <div class="review-box">
+                    <div class="box-img">
+                        <img src="img/r2.png" alt="">
+                    </div>
+                    <div class="box-text">
+                        <h4>Михаил П.</h4>
+                        <div class="ratings">
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-row review-row-top">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia in repellendus quas culpa cum, corrupti at nemo sit voluptas assumenda et tenetur dolorem eaque laudantium, dicta quibusdam ab tempora magnam.</p>
+                <div class="review-box">
+                    <div class="box-img">
+                        <img src="img/r3.png" alt="">
+                    </div>
+                    <div class="box-text">
+                        <h4>Ульяна Л.</h4>
+                        <div class="ratings">
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                            <a href="#"><i class='bx bxs-star' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+
+            <div class="contact-text">
+                <h2 class="heading">Свяжитесь с <span>нами</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere provident cupiditate officia laboriosam ad nemo, neque ex animi magni. Temporibus doloremque exercitationem voluptas, reprehenderit vel obcaecati quisquam odit excepturi facere?</p>
+                <div class="social-media">
+                    <a href="#" class="clr"><i class='bx bxs-envelope'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-vk' ></i></a>
+                </div>
+            </div>
+
+            <div class="contact-details">
+                <div class="details-link">
+                    <a href="#"><i class="bx bx-building-house"></i>г. Череповец ул. Мира, 35</a>
+                </div>
+
+                <div class="details-link">
+                    <a href="tel:88202111111"><i class='bx bxs-phone' ></i>8(8202)11-11-11</a>
+                </div>
+            </div>
+
+            <a class="logo" href="#">Лос <span class="red">ось</span></a>
+
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
